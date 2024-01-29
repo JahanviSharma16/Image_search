@@ -87,16 +87,12 @@ form{
     display: none;
 }
 
-@media screen and (max-widht: 768px){
-    .search-results{
+@media screen and (max-width: 768px) {
+    .search-results {
         padding: 20px;
+        width: 80%;
     }
-    .search-result{
-        width: 45%;
-    }
-}
-@media screen and (max-widht: 480px){
-    .search-result{
+    .search-result {
         width: 100%;
     }
 }
